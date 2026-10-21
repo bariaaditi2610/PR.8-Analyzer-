@@ -1,0 +1,227 @@
+# NumPy Analyzer
+
+##  Project Overview
+
+The **NumPy Analyzer** is a menu-driven Python project developed using the NumPy library. It allows users to create and manipulate NumPy arrays and perform various mathematical, searching, sorting, filtering, and statistical operations.
+
+This project demonstrates the practical use of NumPy arrays, array indexing, slicing, mathematical functions, and aggregate operations in Python.
+
+##  Project Objectives
+
+- Understand NumPy arrays and their dimensions.
+- Perform mathematical operations on arrays.
+- Combine and split arrays.
+- Search, sort, and filter array elements.
+- Calculate statistical values using NumPy.
+- Practice Python functions, loops, conditional statements, and exception handling.
+
+## Features
+
+### 1. Create a NumPy Array
+- Create 1D arrays.
+- Create 2D arrays.
+- Create 3D arrays.
+- Perform indexing and slicing on multidimensional arrays.
+
+### 2. Mathematical Operations
+Perform the following operations on arrays of the same shape:
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+
+### 3. Combine or Split Arrays
+- Combine arrays using vertical stacking (`np.vstack()`).
+- Split arrays into multiple sections using `np.split()`.
+- Select the axis for splitting.
+
+### 4. Search, Sort, or Filter Arrays
+- Search for a specific value using `np.where()`.
+- Sort array elements using `np.sort()`.
+- Filter elements greater than a specified value.
+
+### 5. Compute Aggregates and Statistics
+Calculate the following statistical values:
+
+- Sum using `np.sum()`
+- Mean using `np.mean()`
+- Median using `np.median()`
+- Standard deviation using `np.std()`
+- Variance using `np.var()`
+
+### 6. Exit
+Exit the program safely using the main menu.
+
+## Technologies Used
+
+- **Programming Language:** Python
+- **Library:** NumPy
+- **Code Editor:** Visual Studio Code (VS Code)
+
+##  Project Structure
+
+text
+NumPy-Analyzer/
+│
+├── project_8.py
+├── README.md
+└── requirements.txt
+
+**Note:** Replace `project_8.py` with your actual Python filename if it is different.
+
+##  Installation and Setup
+
+### Step 1: Install Python
+
+Download and install Python from:
+
+https://www.python.org/downloads/
+
+Verify the installation:
+
+bash
+python3 --version
+
+
+### Step 2: Open the Project in VS Code
+
+1. Open Visual Studio Code.
+2. Select **File → Open Folder**.
+3. Select your NumPy Analyzer project folder.
+4. Open the terminal using **Terminal → New Terminal**.
+
+### Step 3: Create a Virtual Environment (Optional)
+
+bash
+python3 -m venv venv
+
+
+Activate the environment on macOS or Linux:
+
+bash
+source venv/bin/activate
+
+On Windows:
+
+bash
+venv\Scripts\activate
+
+### Step 4: Install NumPy
+
+Install the required library using:
+
+bash
+pip install numpy
+
+Alternatively, install all dependencies using:
+
+bash
+pip install -r requirements.txt
+
+### Step 5: Run the Project
+
+Run the Python file from the terminal:
+
+bash
+python3 project_8.py
+
+If you use a virtual environment, make sure it is activated before running the project.
+
+## Sample Output
+
+text
+Welcome to the NumPy Analyzer!
+
+Choose an option:
+1. Create a Numpy Array
+2. Perform Mathematical Operations
+3. Combine or Split Arrays
+4. Search, Sort, or Filter Arrays
+5. Compute Aggregates and Statistics
+6. Exit
+
+Enter your choice:
+
+### Example: Create a 1D Array
+
+text
+Select the type of array to create:
+1. 1D Array
+2. 2D Array
+3. 3D Array
+
+Enter your choice: 1
+Enter number of elements: 5
+Enter 5 elements separated by space: 10 20 30 40 50
+
+Array created successfully:
+[10 20 30 40 50]
+
+### Example: Compute Statistics
+
+For the array:
+
+text
+[10 20 30 40 50]
+
+Expected results:
+
+text
+Sum of Array: 150
+Mean of Array: 30.0
+Median of Array: 30.0
+Standard Deviation of Array: 14.142135623730951
+Variance of Array: 200.0
+
+## Requirements
+
+- Python 3.9 or later recommended.
+- NumPy.
+- VS Code or another Python-compatible editor.
+
+## Dependencies
+
+The project uses NumPy.
+
+Create a `requirements.txt` file containing:
+
+text
+numpy
+
+##  Concepts Covered
+
+- Python functions
+- Global variables
+- While loops
+- If-elif-else statements
+- User input and output
+- Exception handling
+- NumPy array creation
+- Array reshaping
+- Array indexing and slicing
+- Mathematical operations
+- Array stacking and splitting
+- Searching, sorting, and filtering
+- Statistical calculations
+
+## Future Enhancements
+
+- Add input validation for dimensions and array sizes.
+- Handle division by zero.
+- Support horizontal stacking of arrays.
+- Add more filtering conditions.
+- Provide an option to save array results to a file.
+- Improve error handling for invalid indexes and split axes.
+
+## Author
+
+**Project Name:** NumPy Analyzer
+
+**Project Type:** Python Mini Project
+
+**Purpose:** Learning and practicing NumPy array operations and statistical computations.
+
+## License
+
+This project is intended for educational and learning purposes.
